@@ -1,0 +1,40 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    position: absolute;
+    background-color: darkgrey;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#bar{
+    position: fixed;
+    background-color: darkslategray;
+    display: flexbox;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+}
+
+#body{
+    position: fixed;
+    left: 300px;
+    width: 100%;
+}
+
+#links{
+    background-color: darkseagreen;
+}
+
+li{
+    list-style: none;
+}
